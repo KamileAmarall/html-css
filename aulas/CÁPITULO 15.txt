@@ -1,0 +1,121 @@
+CAPÍTULO 15
+USANDO ID COM CSS
+em HTML é 'id'= em CSS é #
+em HTML É 'class'= em CSS é '.'
+***diferença entre "id" e "class"***
+ID=APENAS 1 ELEMENTO (Vai identificar apenas 1 elemento dentro da página, que vai criar um estilo especial para um elemento isolado.)
+***ATENÇÃO: Em um documento HTML, só pode usar 1 "id" para um único elemento.***
+CLASS=VÁRIOS ELEMENTOS (Vai identificar vários elementos dentro da página, que vai criar um estilo especial para vários elementos isolados.)
+
+
+PSEUDO-CLASSES e  PSEUDO-ELEMENTOS:
+(vai fazer com estilo local'style local" na seção head)
+Tem várias PSEUDO-CLASSES para estilos: (é representado po ':'dois pontos)
+   função:Uma palavra-chave adicionada às declarações de um seletor,após um sinal de dois pontos e especificam um estado especial de um elemento.    
+            :hover = quando passar o mouse por cima irá ficar com  a cor q programei;
+            :visited;visitado
+            :active = ativo;
+            :checked = marcado;
+            :empty = vazio;
+            :focus.
+div > p{}(o seletor vai mostrar algo escondido)
+Pode criar tbm para passar o mouse em uma frase e aparecer algo escondido 
+div > p{
+       display:none(siginifica não mostre nada)
+}
+
+div:hover >p{
+  display:block;
+  color:cor exemplo;
+  background-color:cor exemplo;
+  widht:300px
+}
+para funcionar precisa colocar uma a div na seção body tbm entre onde deseja!!!
+O CÓDIGO ABAIXO CRIOU 3 CAIXAS ONDE VC PASSA O MOUSE ACENDE COM A COR ESCOLHIDA:
+    <style>
+        div{
+            display: inline-block;         DISPLAY:display:inline-block:tudo alinhado na msm linha
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;(altura)
+            width: 200px; (largura)
+
+        }
+      div:hover{
+        background-color: rgb(255, 0, 208);
+      }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+    
+</body>
+</html>
+PSEUDO-ELEMENTO: 
+Uma palavra-chave adicionada às declarações de um seletor após dois sinais de dois pontos e permitem que formate apenas uma parte específica do elemento referenciado.
+                ::before:
+                ::after;
+                ::first-letter;
+                ::first-line.
+DIV=Espaço que ocupa a linha toda.
+HEIGHT=ALTURA
+WIDTH=LARGURA
+BORDER=borda
+   SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudoclasse
+        : : = pseudo-element
+        > = clildren
+
+
+***ESSE CÓDIGO CRIOU LINKS PARA SITES EXTERNOS:***
+   body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color:darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color:yellow;
+        }
+        .especial{
+            background-color: rgba(139, 0, 0, 0.338);
+        }
+        .especial::before{
+            content: '→';
+        }
+        .especial::after{
+           content:'←' ; (content=conteúdo)
+        }
+        .novo{
+            background-color: blue;
+            color:white
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links </h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/"class="especial">Canal do YouTube </a></li>
+        <li><a href="https://www.curosemvideo.com" class="novo">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>
+
+

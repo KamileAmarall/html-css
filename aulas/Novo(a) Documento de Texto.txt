@@ -1,0 +1,43 @@
+CÁPITULO 16
+
+MODELO DE CAIXAS: box moddel
+
+Aninhamento='caixas dentro de outras caixas'
+Os termos(caixas) tem altura=height;
+
+                      largura=width;
+
+                      borda=border;
+
+                     espaço interno (preenchimento para afastar a borda do conteúdo)=padding;
+
+                     espaço externo=margin;
+
+                     contorno=outline;
+
+TIPOS DE CAIXA:
+BOX-LEVEL:inicia em uma outra linha e  largura dele é total e depois que termina ele vai para outra linha.
+
+exemplos de tags:<div>       <header>
+
+                  <h1>-<h6>  <main>
+
+                  <p>        <video>
+
+                  <main>
+
+INLINE-LEVEL:vai iniciar em  outra linha  e continua na mesma linha e não ocupa a largura da linha toda.
+
+exemplos de tags:<span>
+
+                 <code>
+
+                 <small>
+
+
+
+
+
+    <margin: auto>margin:auto função:Quando for uma caixa e querer centralizar */]
+
+ box-shadow: 1px 1px 1px black;/*SEMPRE QUE FOR MEXER COM SOMBRAS NO SITE USE ESSA CONFIGURAÇÃO!!!!*/

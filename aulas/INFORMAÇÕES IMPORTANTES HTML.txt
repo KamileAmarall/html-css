@@ -1,0 +1,270 @@
+**INFORMAÇÕES IMPORTANTES HTML**
+nome do arquivo principal de um site feito em html,assim q o visitante solicitar abertura do site : "index.html"
+
+**CONFIGURAÇÕES INICIAIS:*****
+WORD WRAP é uma opção q se altera na configurações para que as instruções muito longas sejam quebradas em várias linhas
+ativar a opção salvamento automático de arquivos
+
+
+**SIGNIFICADOS DOS CÓDIGOS HTML**
+hr=linha horizontal
+p=parágrafo
+br=quebra de linha
+Espaço não separável igual do curso:&nbsp;(SERIA PARA ESPAÇO MENOR)
+Espaço não separável( ESPAÇO MAIOR)
+
+
+&lt;=pedindo para colocar o símbolo "menor que"
+&gt;=pedindo para colocar o símbolo "maior que"
+!=cria o código básico
+<!--  = add comentários
+&#x; =add emoji;site emojidea tem um código: ex: U+1F47D > código completo do emoji
+já no vscode vc vai digitar &#x; + 1F47D + enter
+<img src="" alt="">=img src é o código pra por imagem desejada e alt é a descrição da imagem(é muito importante colocar a descrição)
+use o atalho:ctrl+espaço para aparecer as pastas desejadas onde está a imagem
+***OBS:para aparecer a imagem na pasta é importante colocar a imagens desejadas na msm pasta q for fazer o código.****
+
+
+
+***IMAGENS:****
+JPG=gera arquivos muitos pequenos e que ocupam pouco espaço em disco, pois no site as imagens tem que ser leve para ocupar pouco  espaço e carregar rapidamente o site. É importante olhar o formato em baixo da imagem!!
+PNG=O objetivo é substituir o formato GIF é compacto, mas nn é igual o JPG
+principal característica é poder configurar a opacidade de cada pixel deixando ele transparente ou c/ tranparência limitada.
+Enquanto o tamnho das imagens,cada uma tem o tamanho certo  para colocar no site,pois vai diminuir o valor de armazenamento dele e o site vai ficar lento.
+
+
+tudo isso usa no app "GIMP" ***toda imagem na hora de exportar para a pasta deverá ser 70%***
+***CÓDIGO UTILIZADO PARA COLOCAR A IMAGEM NO SITE***
+<img src="" alt="">=img src é o código pra por imagem desejada e alt é a descrição da imagem(é muito importante colocar a descrição)
+use o atalho:ctrl+espaço para aparecer as pastas desejadas onde está a imagem
+***OBS:para aparecer a imagem na pasta é importante colocar a imagens desejadas na msm pasta q for fazer o código.****
+
+***ICONES DE FAVORITOS PARA UM SITE***
+COMO CRIAR UM ICON
+é importante o arquivo esteja em formato em "ICON" para funcionar corretamente;
+no site iconarch tema alguns disponíveis
+no site favicon.io cria o seu ícone do jeito q vc quer
+digite o código=link na parte do head
+e escolhe link.favicon
+após isso coloque o arquivo  icon na parte de "href"
+
+
+***HIERAQUIA DE TÍTULOS***
+h1=título principal
+h2=título de nível 2
+h3=título de nível 3
+h4=nível 4
+h5=nível 5
+h6=nível 6
+******VAI ATÉ 6******
+
+***FORMATAÇÃO DE TEXTOS***
+PARA COLOCAR A PALAVRA EM NEGRITO,USA O CÓDIGO= b (NÃO TEM SIGNIFICADO) ou Strong ( TEM SIGNIFICADO),tanto faz usar, mas o Strong é o mais certo de se colocar
+PARA COLOCAR UMA PALAVRA EM ITÁLICO= 1°seleciona a palavra que deseja 
+                                     2°use o atalho=ctrl+shift+P
+                                     3°clica em: "EMMENT: ENVELOPE COM A ABREVIATURA OU (ABB)
+                                     4°coloque a letra "I"(NÃO TEM SIGNIFICADO)
+      OU                                                
+PODEMOS USAR O "EM"(TEM SIGNIFICADO)
+1°seleciona a palavra que deseja
+2°use o atalho=ctrl+shift+P
+3°clica em: "EMMENT: ENVELOPE COM A ABREVIATURA OU (ABB)
+4°coloque "EM"(TEM SIGNIFICADO)
+ OBS:USAR ESSE DAQUI É MELHOR!!!!!!!!!
+
+*****ESSE ATALHO:ctrl+shift+P******
+PODE SER USADO PARA VÁRIAS COISAS!
+EXEMPLO COLOCAR UM PARAGRAFO NO MEIO DO TEXTO
+ 1°seleciona a palavra que deseja 
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT: ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a letra "P"
+
+*****PALAVRA EM NEGRITO*****
+ 1°seleciona a palavra que deseja 
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a palavra "STRONG"
+
+*****PALAVRA EM ITÁLICO/ ÊNFASE*****
+ 1°seleciona a palavra que deseja 
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a palavra "EM"
+
+*****TEXTO MARCADO*****
+ 1°seleciona a palavra que deseja 
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a palavra "MARK"
+****COLOCANDO COR NO MARCA-TEXTO****
+1°OPÇÃO:Se caso precisar marcar mais de um texto,o ideal em Html é:
+1°vai nas configurações do código ou seja em "head"
+2°coloque a tag "style"(seria o estilo
+3°e coloque após "mark{"
+4°digite então:"backgrond-color:
+obs:lembrando que,para mudar a cor é função do css(pois vai ser a parte de "design" digamos assim.
+*****TEXTO GRANDE E PEQUENO*****
+(GRANDE) 
+1°seleciona a palavra que deseja 
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a palavra "Big"(mas essa tag nn está mais disponivel temos que pesquisar qual podemos usar no seu lugar)
+(PEQUENO)
+ 1°seleciona a palavra que deseja 
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a palavra "SMALL"
+****TEXTO DELETADO****
+Seria o texto e em cima dele tem uma linha riscando o mesmo.
+ 1°seleciona a palavra que deseja 
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a palavra "DEL"
+****TEXTO INSERIDO OU SUBLINHADO*****
+ 1°seleciona a palavra que deseja 
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a LETRA "U"(mas essa tag nn está mais disponivel temos que pesquisar qual podemos usar no seu lugar)
+****TEXTO SOBRESCRITO*****
+Seria para colocar como por exemplo uma equação
+ 1°seleciona a palavra que deseja(LEMBRANDO QUE,PARA FUNCIONAR É PRECISO COLOCAR DEPOIS DA LETRA QUE NO CASO VAI FICAR GRANDE)
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a palavra "SUP"
+****TEXTO SOBRESCRITO*****
+Para colocar com por exemplo um formula química;no exemplo foi usado da água
+ 1°seleciona a palavra que deseja (LEMBRANDO QUE,PARA FUNCIONAR É PRECISO COLOCAR DEPOIS DA LETRA QUE NO CASO VAI FICAR PEQUENA)
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a palavra "SUP"
+
+****OUTRAS FORMATAÇÕES****
+***TRECHO DE CÓDIGO***
+PARA ELE APARECER NO SITE DO JEITO CERTO,POR EXEMPLO:O comando document.getElementById('teste') é escrito em linguagem JavaScript.
+DEVERÁ FAZER:
+1°seleciona a palavra que deseja(NO EXEMPLO TEVE QUE SELECIONAR APENAS AS PALAVRAS ANTES DA FRASE:"é escrito em linguagem JavaScript".
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a palavra "CODE"
+****COLOCAR O CÓDIGO DO FORMATO CERTO****
+EXEMPLO:   VAI TER QUEBRAS E OS PARAGRAFOS CORRETOS   
+
+num = int(input('Digite um número ')) I if num % 2 == 0;
+print(f' O número {num}é par')else:
+print(f'O número {num} é impar)print('FIM DO PROGRAMA')
+ 
+1°seleciona o código que deseja
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a palavra "PREV"
+para mudar o espaço basta usar o atalho:
+SHIFT+TAB=que vai "andar pra trás"
+TAB=vai "andar pra frente"
+
+****CITAÇÕES****
+ 1°seleciona a frase que deseja
+ 2°use o atalho=ctrl+shift+P
+ 3°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB)
+ 4°coloque a letra "q"
+assim vai colocar as aspas(") automaticamente,mas pode colocar manualmente sem usar a técnica de envelopamento,mas o correto é usar a tag "Q",pois vai ter um sentido/significado
+
+****CITAÇÕES COMPLETAS****
+tendo uma quebra de linha e deslocamento na citação
+ 1°Copiar o URL do site do livro,por exemplo;
+ 2°Colque um parágrafo dando abertura sobre quem cita determinada frase;
+ 3°Em outra linha coloca a tag"BLOCKQUOTE";
+ 4°Escreva a citação;
+ 5°Em frente a tag "BLOCKQUOTE" coloque o parâmetro "(CITE="")" 
+ 6°Cole o URL do site do livro que foi escolhido e no final do link coloque ">" para funcionar
+OBS: o Objetivo do "CITE" é para preservar os direitos autorais do livro, assim no site não vai aparecer visualmente o link, mas no código terá onde e de quem é a citação.
+ 
+****ABREVIAÇÕES****
+é para aparecer o significado inteiro da abreviação que foi feita, assim que colocar o cursor do mouse na abreviação
+1°coloque a abreviação;
+2°selecione a mesma;
+3°envolope ela com o o atalho:ctrl+shift+P;
+4°clica em: "EMMENT": ENVELOPE COM A ABREVIATURA OU (ABB);
+5°e coloque a palavra "ABBR"
+
+****TEXTO INVERTIDO****
+PARA COLOCAR A PALVRA DE FORMA INVERSA DO SEU SENTIDO ORIGINAL QUE SE ESCREVE.
+1°Colooque a tag "BDO" ASSIM VAI APARECER DUAS OPÇÕES UMA É "RTL"DA DIREITA PARA ESQUERDA E  A OUTRA É "LTL" DA ESQUERDA PARA DIREITA
+2°Selecione o tipo de "bdo" que desejar
+3°enter
+
+****LISTAS****
+Para delimitar a lista=<ol>
+A tag <ol> possui vários tipos de marcador da lista feita.
+1-Cria listas numeradas;
+A-Cria lista alfabéticas em maiúsculas;
+a=Cria lista alfabéticas em minúsculas;
+I=Cria listas com algarismos romanos em maiúsculas.
+i=Cria listas com algarismos em minúsculos.
+Para identificar cada item da lista,depedendo da escolha do tipo de "marcação".irá arrumar automaticamente.
+ex:<ol type="I">
+****Listas não Ordenadas****
+a tag <ul>=lista não ordenadas
+usada para delimitar a lista e a tag <li> para criar um dos seus itens internos.
+O marcador padrão é a bolinha preta totalmente preenchida(circle),mas existe a opção de configurar a propriedade type da tag <ul> com os seguintes valores:
+->disc-Padrão.Uma bola preta totalmente pintada
+->Circle-Uma bola com uma borda preta e sem preenchimento
+->Square-Um pequeno quadrado preto totalmente pintado
+ex: <ul type='disc'>
+
+****Lista mista****
+ex:
+<ol>
+   <li>Item 1</li>
+   <li>Item 2</li>
+   <ol type="a">
+         <li>Item 2.1</li>
+         <li>Item 2.2</li>
+         <li>Item 2.3</li>
+  </ol>
+  <li>Item 3</li>
+  <li>Item 4</li>
+  <li>Item 5</li>
+</ol>
+
+****Lista de definições****
+para definir a lista de definições está dentro de uma tag
+<dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação utilizada para criar o conteúdo de sites.</dd>
+</dl>
+     resultado:HTML
+                  Linguagem de marcação utilizada para criar o conteúdo de sites.
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
